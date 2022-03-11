@@ -256,6 +256,8 @@ int main(void)
 	cudaFree(matriz_d);
 	cudaFree(maximos_d);
 	cudaFree(minimos_d);
+	cudaFree(densidad_d);
+	cudaFree(matrizConduccion_d);
 
 	return 0;
 }
